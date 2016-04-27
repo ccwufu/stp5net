@@ -1,7 +1,9 @@
-browse
+0.0.0.0:80
 
-0.0.0.0:2015
+root /srv
 
 log stdout
 
-errors log stdout
+errors stdout
+
+ext .html .htm .php
